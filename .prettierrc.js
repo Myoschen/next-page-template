@@ -14,7 +14,7 @@ module.exports = {
     '<THIRD_PARTY_MODULES>',
     '',
     '^@/types/(.*)$',
-    '^@/constant/(.*)$',
+    '^@/constants/(.*)$',
     '^@/api/(.*)$',
     '^@/store/(.*)$',
     '^@/hooks/(.*)$',
@@ -26,5 +26,5 @@ module.exports = {
     '^[./]'
   ],
   importOrderParserPlugins: ['typescript', 'jsx', 'decorators-legacy'],
-  importOrderTypeScriptVersion: '5.1.6'
+  importOrderTypeScriptVersion: '5.2.2'
 }
