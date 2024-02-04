@@ -4,8 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "env-cmd next dev",
+    "dev:stag": "env-cmd -f .env.staging next dev",
     "build": "rm -rf .next out && env-cmd next build",
+    "build:stag": "rm -rf .next out && env-cmd -f .env.staging next build",
+    "build:prod": "rm -rf .next out && env-cmd -f .env.production next build",
     "start": "yarn run build && npx serve out",
+    "start:stag": "yarn run build:stag && npx serve out",
+    "start:prod": "yarn run build:prod && npx serve out",
     "lint": "next lint"
   },
   "dependencies": {
