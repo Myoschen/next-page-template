@@ -1,4 +1,4 @@
-# nextjs-template
+# next-page-template
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Myoschen/nextjs-template/main?style=flat-square&labelColor=%23222222&color=%23111111)
 
@@ -6,16 +6,14 @@ This is a Next.js template.
 
 ## Usage
 
-```bash
-npx create-next-app -e https://github.com/Myoschen/nextjs-template
-```
-
-```bash
-yarn create next-app -e https://github.com/Myoschen/nextjs-template
-```
-
-```bash
-pnpm create next-app -e https://github.com/Myoschen/nextjs-template
+```sh
+npx create-next-app -e https://github.com/Myoschen/next-page-template
+# Or
+yarn create next-app -e https://github.com/Myoschen/next-page-template
+# Or
+pnpm create next-app -e https://github.com/Myoschen/next-page-template
+# Or
+bun create next-app -e https://github.com/Myoschen/next-page-template
 ```
 
 ## Tech Stack
