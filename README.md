@@ -8,11 +8,17 @@ This is a Next.js template.
 
 ```sh
 npx create-next-app -e https://github.com/Myoschen/next-page-template
-# Or
+```
+
+```sh
 yarn create next-app -e https://github.com/Myoschen/next-page-template
-# Or
+```
+
+```sh
 pnpm create next-app -e https://github.com/Myoschen/next-page-template
-# Or
+```
+
+```sh
 bun create next-app -e https://github.com/Myoschen/next-page-template
 ```
 
